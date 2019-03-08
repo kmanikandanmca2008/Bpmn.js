@@ -1,0 +1,17 @@
+<!-- <mat-button-toggle-group name="property-panel">
+    <mat-button-toggle value="basic" (click)="toggleProps(false)">basic</mat-button-toggle>
+    <mat-button-toggle value="advanced" (click)="toggleProps(true)">Advanced</mat-button-toggle>
+  </mat-button-toggle-group> -->
+<br>
+  <button color="primary" mat-raised-button (click)="getxml()" style="margin-left:20px;">Get BPMN XML</button>
+  <button color="accent" mat-raised-button (click)="filterPalette()" style="margin-left:20px;">Custom Pallete Elements</button>
+  <button color="primary" mat-raised-button (click)="FullPalette()" style="margin-left:20px;">Advanced Pallete Elements</button>
+
+  <button color="accent" mat-raised-button (click)="togglePalette()" style="margin-left:20px;">Toggle Pallete</button>
+
+  <div class="properties-panel-parent" id="props"></div>
+  <div  class="canvas poc-container" id="js-canvas"></div>
+
+
+
+

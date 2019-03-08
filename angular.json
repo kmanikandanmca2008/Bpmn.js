@@ -27,9 +27,15 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bpmn-font/dist/css/bpmn.css",
+              "node_modules/bpmn-js/dist/assets/diagram-js.css",
+              "node_modules/bpmn-js-properties-panel/dist/assets/bpmn-js-properties-panel.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+"node_modules/bpmn-js/dist/bpmn-modeler.development.js",
+"node_modules/bpmn-moddle/lib/bpmn-moddle.js"
+            ]
           },
           "configurations": {
             "production": {

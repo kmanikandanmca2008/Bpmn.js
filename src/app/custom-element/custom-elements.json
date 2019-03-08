@@ -1,0 +1,23 @@
+[
+   {
+      "type":"custom:circle",
+      "id":"CustomCircle_1",
+      "class":"icon-custom-triangle"
+   },
+   {
+      "type":"custom:triangle",
+      "id":"CustomTriangle_1",
+      "class":"icon-custom-circle"
+   },
+   {
+      "type":"custom:servicetask",
+      "id":"CustomServiceTask_1",
+      "class":"icon-custom-servicetask"
+   },
+   {
+      "type":"bpmn:ServiceTask",
+      "id":"id1",
+      "title": "Create a new servicetask!",
+      "class":"icon-custom-servicetask"
+   }
+]
